@@ -3,40 +3,41 @@
     "pages/index/main",
     "pages/logs/main"  ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ea4451",
+    "navigationBarTitleText": "优购"
   },
   "tabBar": {
-    "color": "#999",
-    "backgroundColor": "#fafafa",
-    "selectedColor": "#333",
-    "borderStyle": "white",
+    "color": "#333",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ea4451",
+    "borderStyle": "black",
 
-    "list": [{
+    "list": [
+      {
       "text": "首页",
       "pagePath": "pages/index/main",
-      "iconPath": "static/tabs/home.png",
-      "selectedIconPath": "static/tabs/home-active.png"
-    }, {
-      "text": "订单",
+      "iconPath": "static/tabs/icon_home@3x.png",
+      "selectedIconPath": "static/tabs/icon_home_active@3x.png"
+    },
+    {
+      "text": "分类",
       "pagePath": "pages/logs/main",
-      "iconPath": "static/tabs/orders.png",
-      "selectedIconPath": "static/tabs/orders-active.png"
-    }],
-
-    "items": [{
-      "name": "首页",
-      "pagePath": "pages/index/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
-    }, {
-      "name": "订单",
+      "iconPath": "static/tabs/icon_category@3x.png",
+      "selectedIconPath": "static/tabs/icon_category_active@3x.png"
+    },
+    {
+      "text": "购物车",
       "pagePath": "pages/logs/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
-    }],
+      "iconPath": "static/tabs/icon_cart@3x.png",
+      "selectedIconPath": "static/tabs/icon_cart_active@3x.png"
+    },
+    {
+      "text": "我的",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/icon_user@3x.png",
+      "selectedIconPath": "static/tabs/icon_user_active@3x.png"
+    }
+  ],
     "position": "bottom"
   }
 }
